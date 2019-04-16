@@ -1,11 +1,12 @@
 #include <iostream>
 #include "vector.h"
 
-vector::vector(int initial_quantity){
-	//std::cout	<< "Chamando contrutor com o valor " << initial_quantity << std::endl;
-	values		= new int [initial_quantity];
-	array_size	= initial_quantity;
-	quantity 	= 0;
+vector::vector(int initial_quantity) : 
+	values(new int[initial_quantity],
+	array_size(initial_quantity;
+	quantity(0);
+{
+	//std::cout	<< "Chamando construtor com o valor " << initial_quantity << std::endl;
 }
 vector::~vector(){
 	//std::cout << "Chamando destrutor " << std::endl;
