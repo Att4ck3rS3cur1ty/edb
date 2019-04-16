@@ -2,7 +2,7 @@
 #define QUEUE_H
 
 struct queue{
-	queue(int capacity();
+	queue(int capacity);
 	vector data;
 	void clear();
 	bool empty();
